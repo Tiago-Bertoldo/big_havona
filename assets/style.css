@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;1,400&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    overflow-x: hidden;
+}
+.nav {
+    width: 100%;
+    height: 9em;
+    display: flex;
+    background-color: #eaeaea;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu img {
+    width: 249px;
+    height: 34px;
+    margin-top: 2.5em;
+    margin-left: 2em;
+}
+
+.menu ul { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.4em;
+    
+}
+
+.menu li {
+    padding: 2em;
+    
+}
+
+/* MENU RESPOSIVE ACTIVE */
+
+@media screen and (max-width:1050px) {
+    .menu {
+        margin: 0 auto;
+        width: 1240px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .menu ul { 
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.4em;
+        
+    }
+    
+    .menu li {
+        padding: 2em;
+        
+    }
+}
+
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #535151;
+    font-weight: bold ;
+    letter-spacing: 0.3px;
+}
+.menu a:hover {
+    color: #8a8787;
+    border-bottom: 2px solid #5278ba;
+}
+
+.menu-resposive {
+    z-index: 7;
+    display: none;
+    margin-top: 3em;
+    cursor: pointer;
+}
+.burger {
+    background-color: rgb(131, 128, 128);
+    margin-top: 0.4em;
+    margin-right: 1.6em;
+    width: 2.5em;
+    height: 0.3em;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+/* RESPOSIVE MENU  */
+
+@media screen and (max-width: 850px){
+    .menu-resposive {
+        display: block;
+        margin: 2.5em 1em 0  0 ; 
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .menu ul { 
+        z-index: 7;
+        position: absolute;
+        flex-direction: column;
+        margin-top: 7em;
+        right: 0;
+        width:  50%;
+        height: calc(100% - 20%);
+        background-color: #eaeaea;
+        transform: translateY(-150%); 
+        transition:  transform 0.7s ease-in;
+        align-items: center;
+
+        border-radius: 5px;
+    }
+    
+    .menu li {
+        padding: 1.5em;
+        
+    }
+    .menu a {
+        text-decoration: none;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1rem;
+        color: #535151;
+        font-weight: bold ;
+        letter-spacing: 0.3px;
+        width: 100%;
+        
+    }
+
+    .menu a:hover {
+        color: #8a8787;
+        border-bottom: 2px solid #5278ba;
+    }
+
+}
+
+.nav-active ul {
+    transform: translate(0%);
+}
+
+.toggle .line1 {
+    background-color: black;
+    transform: rotate(-45deg) translate(-5px , 7px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    background-color: black;
+    transform: rotate(45deg) translate(-5px , -7px);
+}
+
+/* MENU RESPOSIVE ACTIVE */
+
+
+
+/*FOOTER INICIO */
+
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: #eaeaea;
+    flex-wrap: wrap;
+    
+}
+.formulario {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.bloco-img {
+    width: calc(100% - 70%);
+    margin: 2em 0 0 1em;
+    
+}
+
+.bloco-img p {
+    margin-top: 5em;
+    color: black;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 8px;
+    color: #646464;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 11px;
+}
+.bloco-form{
+    display: flex;
+    width: calc(100% - 50%);
+}
+
+.aside-one {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+
+.aside-box {
+    width: 10em;
+    height: 10em;
+}
+
+.check-box {
+    margin: 3em 0 0 -28em;
+}
+.comm {
+    position: absolute;
+    margin: -1.7em 0 0 -34em;
+    color: black;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 7px;
+    color: #000000;
+    font-weight: bold ;
+    letter-spacing: 0.5px;
+    
+
+}
+
+.comm em {
+    color: blue;
+}
+
+
+.aside-two {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-top: 4.7em;
+}
+
+.obj-h1 {
+    position: absolute;
+    margin: 0.5em 0 0 5em;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold ;
+    letter-spacing: 0.3px;
+}
+
+
+.aside-three {
+    display: flex;
+    flex-direction: column;
+    margin: -5em 0 0 18em;
+}
+
+
+
+/* 
+CONFIG INPUT  */
+.ls {
+    margin-top: 2em;
+    width: calc(100% - 50%);
+}
+.config-input {
+    background-image: url(../img/user_pp.png);
+    background-repeat: no-repeat;
+    background-position: 7px 10px;
+    border-color: #5278ba;
+    border-radius: 5px;
+    height: 3em;
+    width: 20em;
+    padding-left: 3em;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold ;
+    letter-spacing: 0.3px;
+}
+
+
+
+.aside-two textarea {
+    height: 8em;
+    width: 20em;
+    margin-top: 2em;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-image: url(../img/form.png);
+    background-repeat: no-repeat;
+    background-position: 7px 9px;
+    padding: 0.8em 0 0 3em;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold ;
+    letter-spacing: 0.3px;
+    resize: none;
+}
+
+
+
+.aside-three input {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 20em;
+    height: 5em;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #009da2;
+    box-shadow: 1px 1px 5px 1px #9ea2a4;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: bold ;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+.aside-three input:hover {
+    transition: 0.6s;
+    background-color: #54d0d4;
+}
+@media screen and (max-width:1050px) {
+    .config-input  {
+        width: 130px;
+    }
+    .aside-two textarea {
+        width:130px;
+    }
+    .obj-h1 {
+        font-size: 15px;
+    }
+}
+
+/* 
+RESPOSIVE NORMAL FOOTER */
+/* 
+bloco-img config */
+@media screen and (min-width:760px) {
+    .logo-mini {
+        display: none;
+    }
+    .logo-medium{
+        display: none;
+    }
+}
+@media screen and (max-width:760px) {
+    .formulario {
+        flex-direction: column;
+    }
+    .logo-medium {
+        display: none;
+    }
+    .logo-big {
+        display: none;
+    }
+    .bloco-img {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .logo-mini {
+        margin: 1em 0 0 4.5em;
+    }
+    
+    .bloco-img p{
+        margin: 2em 0 0 0.5em;
+    }
+
+}
+/* 
+bloco-form config */
+
+@media screen and (max-width:760px) {
+    .bloco-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .obj-h1 {
+        font-size: 18px;
+        margin: 2em 0 0 7em;
+    }
+
+    .aside-one {
+        margin: 5em 0 0 10em;
+    }
+    .aside-two {
+        margin: 0 0 0 10em;
+    }
+    .aside-two textarea {
+        margin-top: 2em;
+        width: 18em;
+    }
+    .aside-box {
+        margin: 0 0 0 15em;
+    }
+    .aside-three{
+        margin: -5em auto;
+    }
+    .config-input {
+        width: 18em;
+    }
+}
