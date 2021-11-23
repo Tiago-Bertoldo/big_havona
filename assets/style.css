@@ -116,10 +116,9 @@ body {
         width:  50%;
         height: calc(100% - 20%);
         background-color: #eaeaea;
-        transform: translateY(-150%); 
+        transform: translateX(-250%); 
         transition:  transform 0.7s ease-in;
         align-items: center;
-
         border-radius: 5px;
     }
     
