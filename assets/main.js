@@ -4,7 +4,9 @@ function menuResponsive() {
     let select = addEventListener('click' , e => {
         const el = e.target;
         if (el.classList.contains('burger') || el.classList.contains('menu-resposive')){
-            menu.classList.toggle('nav-active');
+            alert('estou aqui');
+            menu.classList.add('nav-active');
+            
         }
         else {
             menu.classList.remove('nav-active')
