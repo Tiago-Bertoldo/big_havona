@@ -141,6 +141,12 @@ body {
         border-bottom: 2px solid #5278ba;
     }
 
+    .menu img {
+        margin-top: 3.5em;
+        width: 80px;
+        height: 11px;
+    }
+
 }
 
 .nav-active ul  {
@@ -480,10 +486,13 @@ bloco-form config */
     }
 
     .aside-one {
-        margin: 5em 0 0 8em;
+        display: flex;
+        border: 1px solid black;
+        margin: 5em 0 0 5em;
     }
     .aside-two {
-        margin: 0 0 0 8em;
+        border: 1px solid black;
+        margin: 0 0 0 5em;
     }
     .aside-two textarea {
         margin-top: 2em;
