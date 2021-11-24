@@ -489,7 +489,7 @@ bloco-form config */
 
     .aside-one {
         display: flex;
-
+        margin-bottom: -5em;
     }
 
     .aside-two textarea {
@@ -497,9 +497,9 @@ bloco-form config */
         width: 18em;
     }
     .aside-box {
-        width: 320px;
-        margin: 0 0 0 12em;
+        margin: 0 0 0 15em;
     }
+    
     .aside-three{
         display: flex;
         width: 320px;
