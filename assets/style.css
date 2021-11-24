@@ -89,7 +89,7 @@ body {
     background-color: rgb(131, 128, 128);
     margin-top: 0.4em;
     margin-left: 2em;
-    width: 2.5em;
+    width: 2em;
     height: 0.3em;
     display: block;
     cursor: pointer;
@@ -107,6 +107,12 @@ body {
     }
     body {
         overflow-x: hidden;
+    }
+
+    .menu img {
+        margin-top: 3em;
+        width: calc(100% - 60%);
+        height: calc(100% - 80%);
     }
     .menu ul { 
         position: absolute;
@@ -480,10 +486,10 @@ bloco-form config */
     }
 
     .aside-one {
-        margin: 5em 0 0 10em;
+        margin: 5em 0 0 8em;
     }
     .aside-two {
-        margin: 0 0 0 10em;
+        margin: 0 0 0 8em;
     }
     .aside-two textarea {
         margin-top: 2em;
@@ -494,7 +500,7 @@ bloco-form config */
         margin: 0 0 0 15em;
     }
     .aside-three{
-        margin: -5em auto;
+        margin: -5em 7em 0 0;
     }
     .config-input {
         width: 18em;
