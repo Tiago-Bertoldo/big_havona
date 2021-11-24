@@ -117,7 +117,7 @@ body {
         width:  30%;
         height: calc(100% - 50%);
         background-color: #eaeaea;
-        transform: translateY(-100%); 
+        transform: translateY(-130%); 
         transition:  transform 0.7s ease-in;
         align-items: center;
     }
@@ -219,7 +219,7 @@ body {
     margin: 1em auto;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:790px) {
     .container {
         width: 320px;
         display: flex;
@@ -482,7 +482,7 @@ bloco-img config */
         display: none;
     }
 }
-@media screen and (max-width:760px) {
+@media screen and (max-width:790px) {
     body {
         overflow-x: hidden;
     }
@@ -515,7 +515,7 @@ bloco-img config */
 /* 
 bloco-form config */
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:790px) {
     .bloco-form {
         width: 320px;
         display: flex;
@@ -534,11 +534,11 @@ bloco-form config */
 
     .aside-two textarea {
         margin-top: 2em;
-        width: 18em;
+        width: 25em
     }
 
     .config-input {
-        width: 18em;
+        width: 25em;
     }
     .comm {
         width: 50em;
@@ -550,6 +550,6 @@ bloco-form config */
         margin: 1em auto;
     }
     .signup input {
-        width: 24vh;
+        width: 28em
     }
 }
