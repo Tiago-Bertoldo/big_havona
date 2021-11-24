@@ -97,6 +97,7 @@ body {
 }
 
 
+
 /* RESPOSIVE MENU  */
 
 @media screen and (max-width: 850px){
@@ -142,7 +143,7 @@ body {
 
 }
 
-.nav-active ul {
+.nav-active ul  {
     transform: translateX(0%);
 }
 
@@ -166,54 +167,76 @@ body {
     height: 470px;
     display: flex;
     justify-content: space-between;
-}
-.article-one {
-    background-image: url(../img/obj_blue.png);
-    background-repeat: no-repeat;
-    background-position: 10px 0px;
-    background-size: 400px;
-    display: flex;
     margin: 0 auto;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
     width: 1240px;
 }
 
-
-.span {
-    width: calc(100% - 50%); 
-    min-width: 500px;
+.one-left img {
+    display: block;
 }
 
-.span h1 {
-    margin: 3em 0 0 1em;
+.one-left h1 {
+    z-index: 7;
+    display: block;
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 3rem;
-    color: #eaeaea;
+    font-size: 28pt;
+    color: white;
     font-weight: bold ;
     letter-spacing: 0.3px;
+    margin: -9em 0 0 0.6em;
 }
 
-.span p {
-    margin: 3em 0 0 1.5em;
-    margin-top: 2rem;
+.one-left p {
+    z-index: 7;
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2rem;
-    color: #eaeaea;
-    font-weight: normal;
-    letter-spacing: 2px;
+    font-size: 14pt;
+    color: white;
+    font-weight: bold ;
+    letter-spacing: 3px;
+    margin: 2em 0 0 1em;
+    width: calc(100% - 30%);
 }
 
-.article-two {
-    width: calc(100%);
 
+@media screen and (max-width:720px) {
+    .container {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section {
+        height: 300px;
+    }
+    .one-left p {
+        margin: 2em 0 0 3em;
+        font-size: 11px;
+    }
+    .one-left h1 {
+        margin: -13em 0 0 2em;
+        font-size: 17px;
+    }
+    .one-left img {
+        margin: 0.6em auto;
+        width: calc(100% - 10%);
+    }
+    
 }
 
-.article-two img { 
-    margin: 3em 0 0 10em;
-    width: calc(80%);
-    min-width: 530px;
+
+.one-right {
+    border: 1px solid black;
+    width: calc(100% - 50%);
 }
+
+/* 
+RESPOSIVE ARTICLES */
+
 
 
 
@@ -303,7 +326,7 @@ body {
 
 .obj-h1 {
     position: absolute;
-    margin: 0.5em 0 0 5em;
+    margin: 1em 0 0 5em;
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2rem;
