@@ -284,6 +284,7 @@ RESPOSIVE ARTICLES */
 }
 .bloco-form{
     display: flex;
+    flex-direction: row;
     width: calc(100% - 50%);
     
 }
@@ -295,15 +296,38 @@ RESPOSIVE ARTICLES */
     padding: 1em;
 }
 
-
-.aside-box {
-    width: 10em;
-    height: 10em;
+.check {
+    display: flex;
+    width: 320px;
+    margin: 1em 0 0 50%;
+    justify-content: space-between;
+}
+.check h1 {
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 7pt;
+    color: black;
+    font-weight: bold ;
+    letter-spacing: 0.3px;
+}
+.check em {
+    color: blue;
 }
 
-.check-box {
-    margin: 3em 0 0 -28em;
+.signup {
+    display: flex;
+    width: 320px;
+    margin: 1.5em 0 0 50%;
+    justify-content: space-between;
 }
+
+.signup input {
+    width: 17vh;
+    height: 5em;
+    border-radius: 5px;
+}
+
 .comm {
     position: absolute;
     margin: -1.7em 0 0 -34em;
@@ -317,12 +341,6 @@ RESPOSIVE ARTICLES */
     
 
 }
-
-.comm em {
-    color: blue;
-}
-
-
 .aside-two {
     display: flex;
     flex-direction: column;
@@ -339,13 +357,6 @@ RESPOSIVE ARTICLES */
     color: #000000;
     font-weight: bold ;
     letter-spacing: 0.3px;
-}
-
-
-.aside-three {
-    display: flex;
-    flex-direction: column;
-    margin: -5em 0 0 18em;
 }
 
 
@@ -483,7 +494,7 @@ bloco-form config */
         margin: 0 auto;
     }
     .obj-h1 {
-        font-size: 25px;
+        font-size: 20px;
         margin: 1em auto;
     }
 
@@ -496,17 +507,20 @@ bloco-form config */
         margin-top: 2em;
         width: 18em;
     }
-    .aside-box {
-        margin: 0 0 0 15em;
-    }
-    
-    .aside-three{
-        display: flex;
-        width: 320px;
-        margin: -5em 0 0 3em;
-    }
 
     .config-input {
         width: 18em;
+    }
+    .comm {
+        width: 50em;
+    }
+    .check {
+        margin: 1em auto;
+    }
+    .signup {
+        margin: 1em auto;
+    }
+    .signup input {
+        width: 24vh;
     }
 }
