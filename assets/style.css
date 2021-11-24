@@ -142,7 +142,7 @@ body {
     }
 
     .menu img {
-        margin-top: 3.5em;
+        margin: 3.5em auto;
         width: 80px;
         height: 11px;
     }
@@ -477,23 +477,21 @@ bloco-form config */
 
 @media screen and (max-width:760px) {
     .bloco-form {
+        width: 320px;
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
     }
     .obj-h1 {
         font-size: 18px;
-        margin: 2em 0 0 7em;
+        margin: 1em auto;
     }
 
     .aside-one {
         display: flex;
-        border: 1px solid black;
-        margin: 5em 0 0 5em;
+
     }
-    .aside-two {
-        border: 1px solid black;
-        margin: 0 0 0 5em;
-    }
+
     .aside-two textarea {
         margin-top: 2em;
         width: 18em;
@@ -503,7 +501,13 @@ bloco-form config */
         margin: 0 0 0 15em;
     }
     .aside-three{
-        margin: -5em auto;
+        display: flex;
+        width: 320px;
+        border: 1px solid black;
+    }
+
+    .aside-three input {
+        margin: 0 auto;
     }
     .config-input {
         width: 18em;
