@@ -423,10 +423,10 @@ CONFIG INPUT  */
 }
 @media screen and (max-width:1050px) {
     .config-input  {
-        width: 130px;
+        width: 150px;
     }
     .aside-two textarea {
-        width:130px;
+        width:150px;
     }
     .obj-h1 {
         font-size: 15px;
@@ -503,7 +503,6 @@ bloco-form config */
     .aside-three{
         display: flex;
         width: 320px;
-        border: 1px solid black;
         margin: -5em 0 0 3em;
     }
 
