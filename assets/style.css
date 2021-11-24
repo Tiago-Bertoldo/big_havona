@@ -89,7 +89,7 @@ body {
     background-color: rgb(131, 128, 128);
     margin-top: 0.4em;
     margin-left: 2em;
-    width: 2em;
+    width: 2.5em;
     height: 0.3em;
     display: block;
     cursor: pointer;
@@ -107,12 +107,6 @@ body {
     }
     body {
         overflow-x: hidden;
-    }
-
-    .menu img {
-        margin-top: 3em;
-        width: calc(100% - 60%);
-        height: calc(100% - 80%);
     }
     .menu ul { 
         position: absolute;
@@ -500,7 +494,7 @@ bloco-form config */
         margin: 0 0 0 15em;
     }
     .aside-three{
-        margin: -5em 7em 0 0;
+        margin: -5em auto;
     }
     .config-input {
         width: 18em;
