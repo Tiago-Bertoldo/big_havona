@@ -468,6 +468,9 @@ CONFIG INPUT  */
     .obj-h1 {
         font-size: 15px;
     }
+    .one-right {
+        display: none;
+    }
 }
 
 /* 
