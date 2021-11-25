@@ -114,10 +114,10 @@ body {
         flex-direction: column;
         margin-top: 9em;
         left: 0;
-        width:  30%;
+        width: 30%;
         height: calc(100% - 50%);
         background-color: #eaeaea;
-        transform: translateY(-130%); 
+        transform: translateX(-150%); 
         transition:  transform 0.7s ease-in;
         align-items: center;
     }
