@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;1,400&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --blue : #5278ba;
+    --font : #535151;
+}
+   
+
+
 .section {
     display: flex;
     flex-direction: row;
@@ -823,3 +831,83 @@ bloco-form config */
         width: 32em
     }
 }
+
+
+/* START TECHNOLOGY */
+
+
+.section-tec-one {
+    width: calc(100%);
+    background-color: var(--blue);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/back-tec.png);
+    justify-items: center;
+    
+}
+
+/* START ARTICLE ONE */
+.article-tec-one {
+    margin: 0 auto;
+    width: 1240px;
+    display: flex;
+    flex-direction: row;
+}
+
+.build {
+    width: calc(100% - 50%);
+    margin: 15em 0 2em 2em;
+    padding: 2em;
+}
+
+.article-tec-one p {
+    margin-top: 1.3em;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22pt;
+    color: #fffefe;
+    font-weight: bold ;       
+    text-align: center;
+}
+/* END ARTICLE ONE */
+
+/* START ARTICLE TWO */
+.article-tec-two {
+    width: 1240px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
+
+
+.article-tec-left {
+    width: calc(100% - 50%);
+}
+
+.dg , .iot ,.adv ,.dlt ,.ai {
+    display: flex;
+    margin: 5em auto;
+    width: 30em;
+    height: 30em;
+    border: 1px solid black;
+    
+}
+.article-tec-right {
+    width: calc(100% - 50%);
+    height: 300px;
+}
+
+@media screen and(max-width:720px) {
+    .article-tec-two {
+        flex-direction: column;
+    }
+
+}
+
+
+
+/* END ARTICLE TWO  */
+/* END TECHNOLOGY */
+
