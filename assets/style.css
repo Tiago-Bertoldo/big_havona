@@ -528,21 +528,23 @@ RESPOSIVE */
     display: flex;
     background-color: #eaeaea;
     flex-wrap: wrap;
+  
     
 }
 
 .formulario {
     width: 1240px;
-    margin: 5em auto;
+    margin: 1em auto;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    
     
 }
 .bloco-img {
     width: calc(100% - 70%);
     margin: 2em 0 0 1em;
-    
+
 }
 
 .bloco-img p {
@@ -759,7 +761,7 @@ bloco-img config */
     }
     .formulario {
         width: calc(100%);
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .logo-medium {
         display: none;
