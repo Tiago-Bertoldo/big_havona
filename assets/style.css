@@ -104,7 +104,21 @@ body {
     transition: all 0.5s ease;
 }
 
+.resp-text {
+    display: none;
+}
 
+.resp-text p {
+    margin-top: 5em;
+    color: black;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 8px;
+    color: #646464;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 11px;
+}
 
 /* RESPOSIVE MENU  */
 
@@ -157,7 +171,13 @@ body {
         width: 80px;
         height: 11px;
     }
-
+    .resp-text{
+        display: flex;
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 3em;
+    }
+    
 }
 
 .nav-active ul  {
