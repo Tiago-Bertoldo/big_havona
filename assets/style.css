@@ -877,32 +877,59 @@ bloco-form config */
     width: 1240px;
     display: flex;
     margin: 0 auto;
-    border: 1px solid black;
     
 }
 
 
 .article-tec-left {
     width: calc(100% - 50%);
+    border-bottom: -5em;
+}
+
+.article-tec-two h1 {
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 21pt;
+    color: #464444;
+    font-weight: bold ;       
+    margin: 0 2em 0.8em 0.6em;
+}
+
+.article-tec-two p {
+    margin-top: 0.7em;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12pt;
+    color: #313030;
+    font-weight: normal ; 
+    margin-left: 1em;   
 }
 
 .dg , .iot ,.adv ,.dlt ,.ai {
+    margin: 5em 7em 6em auto;
+    width: calc(100% - 25%);
     display: flex;
-    margin: 5em auto;
-    width: 30em;
-    height: 30em;
-    border: 1px solid black;
-    
-}
-.article-tec-right {
-    width: calc(100% - 50%);
-    height: 300px;
 }
 
-@media screen and(max-width:720px) {
+
+.article-tec-right {
+    width: calc(100% - 50% );
+
+}
+
+@media screen and (max-width:760px) {
     .article-tec-two {
+        width: 320px;
         flex-direction: column;
+        margin: 0 auto;
     }
+    .dg , .iot ,.adv ,.dlt ,.ai {
+        width: 26em;
+    }
+    .article-tec-right {
+        margin-top: -5em;
+    }
+    
 
 }
 
