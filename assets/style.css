@@ -881,6 +881,7 @@ bloco-form config */
     width: calc(100% - 50%);
     margin: 15em 0 2em 2em;
     padding: 2em;
+    line-height: 1.2;
 }
 
 .article-tec-one p {
@@ -901,8 +902,6 @@ bloco-form config */
     margin: 0 auto;
     
 }
-
-
 .article-tec-left {
     width: calc(100% - 50%);
     border-bottom: -5em;
@@ -915,6 +914,7 @@ bloco-form config */
     color: #464444;
     font-weight: bold ;       
     margin: 0 2em 0.8em 0.6em;
+
 }
 
 .article-tec-two p {
@@ -935,8 +935,98 @@ bloco-form config */
 
 
 .article-tec-right {
-    width: calc(100% - 50% );
+    width: calc(100% - 50% ); 
+}
 
+/* START SECTION  THREE  ///////////*/
+.section-tec-three {
+    width: 100%;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left right;
+    background-image: url(../img/back-tec.png);
+    z-index: 1;
+}
+
+.article-tec-three {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-tec-three p {
+    margin-top: 0.7em;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+    font-weight: normal ; 
+    margin-left: 3em;
+    line-height: 1.8;   
+}
+
+.article-tec-three h2 {
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 21pt;
+    color: #000000;
+    font-weight: bold ;       
+    margin: 1.2em 2em 0.8em 0.6em;
+}
+
+.how-it {
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35pt;
+    color: #000000;
+    font-weight: bold ;       
+    margin: 1.2em 2em 0.8em 0.2em;
+}
+
+.article-tec-box-two {
+    width: calc(100% - 60%);
+}
+
+.article-tec-box-two img {
+    margin: 20em auto;
+    z-index: 2;
+    animation-name: moveLogo;
+    animation-duration: 4s;
+}
+
+.article-tec-box-one {
+    margin-bottom: 3em;
+}
+
+.p-it {
+    margin-right: 1em;
+}
+
+
+
+@keyframes moveLogo {
+    0% {
+        opacity: 0.2;
+        top: 140px;
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(40%);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.article-tec-box-two img:hover {    
+    animation-name: moveLogo;
+    animation-duration: 4s;
+    opacity: 1;
 }
 
 @media screen and (max-width:760px) {
