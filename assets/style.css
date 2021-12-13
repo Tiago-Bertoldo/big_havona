@@ -1064,6 +1064,7 @@ bloco-form config */
     }
     .article-tec-one {
         width: 320px;
+        border: 1px solid black;
     }
     .dg , .iot ,.adv ,.dlt ,.ai {
         width: 26em;
@@ -1075,9 +1076,6 @@ bloco-form config */
         font-size: 15pt;
         margin: 1.2em 2em 0.8em 0.6em;
     
-    }
-    .article-tec-box-one {
-        margin: 0 0 10em 0;
     }
     .article-tec-three p {
         font-size: 10pt;
