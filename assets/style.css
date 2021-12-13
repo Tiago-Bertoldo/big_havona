@@ -1042,7 +1042,6 @@ bloco-form config */
 
 .section-tec-four {
     width: calc(100%);
-    border: 1px solid black;
     background-image: url(../img/back-tec-two.png);
 }
 
@@ -1062,6 +1061,9 @@ bloco-form config */
         width: 320px;
         flex-direction: column;
         margin: 0 auto;
+    }
+    .article-tec-one {
+        width: 320px;
     }
     .dg , .iot ,.adv ,.dlt ,.ai {
         width: 26em;
@@ -1085,12 +1087,11 @@ bloco-form config */
         display: none;
     }
     .article-tec-four {
-        padding: 2em;
         width: 320px;
         flex-direction: column;
     }
     .article-tec-four > img {
-        width: 330px;
+        width: 320px;
     }
 }
 
