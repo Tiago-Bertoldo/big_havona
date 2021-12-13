@@ -644,10 +644,12 @@ RESPOSIVE */
     border: 1px solid black;
     width: 25em;
     height: 5em;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 8px;
     background-color: #009da2;
-    box-shadow: 1px 1px 5px 1px #9ea2a4;
+    box-shadow: 1px 1px 5px 1px #9ea2a4 ;
+    -webkit-box-shadow: 1px 1px 5px 1px #9ea2a4;
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
     font-size: 10px;
@@ -1006,7 +1008,8 @@ bloco-form config */
     margin: 20em auto;
     z-index: 2;
     animation-name: moveLogo;
-    animation-duration: 4s;
+    -webkit-animation-name: moveLogo;
+    -webkit-animation-duration: 4s;
 }
 
 .article-tec-box-one {
@@ -1035,6 +1038,8 @@ bloco-form config */
 .article-tec-box-two img:hover {    
     animation-name: moveLogo;
     animation-duration: 4s;
+    -webkit-animation-name: moveLogo;
+    -webkit-animation-duration: 4s;
     opacity: 1;
 }
 
