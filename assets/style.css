@@ -1057,43 +1057,4 @@ bloco-form config */
 }
 
 @media screen and (max-width:760px) {
-    .article-tec-two {
-        width: 320px;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .article-tec-one {
-        width: 320px;
-    }
-    .dg , .iot ,.adv ,.dlt ,.ai {
-        width: 26em;
-    }
-    .article-tec-right {
-        margin-top: -5em;
-    }
-    .article-tec-three h2 {
-        font-size: 15pt;
-        margin: 1.2em 2em 0.8em 0.6em;
-    
-    }
-    .article-tec-three p {
-        font-size: 10pt;
-        margin: 1.2em 2em 0.6em 1em;
-    }
-    .article-tec-box-two img {
-        display: none;
-    }
-    .article-tec-four {
-        width: 320px;
-        flex-direction: column;
-    }
-    .article-tec-four > img {
-        width: 320px;
-    }
 }
-
-
-/* END ARTICLE TWO  */
-
-/* END TECHNOLOGY */
-

@@ -4,11 +4,11 @@ function start() {
 }
 
 
-function menuResponsive() {
+const menuResponsive = ()=>{
     let menu = document.querySelector('.menu')
     let body = document.querySelector('.nav');
     let resposive = document.querySelector('.menu-resposive')
-     addEventListener('click' , e => {
+     document.addEventListener('click' , e => {
         const el = e.target;
         if (el.classList.contains('burger') || el.classList.contains('menu-resposive')){
             menu.classList.toggle('nav-active');
