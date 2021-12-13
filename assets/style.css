@@ -130,7 +130,7 @@ body {
 
 @media screen and (max-width: 850px){
     .nav {
-        height: 4em;
+        height: 5em;
     }
     .on-off {
         display: none;
@@ -145,9 +145,9 @@ body {
     .menu ul { 
         position: absolute;
         flex-direction: column;
-        margin-top: 9em;
+        margin-top: 5em;
         left: 0;
-        width: 90%;
+        width: 50vh;
         height: calc(100% - 10%);
         background-color: #eaeaea;
         transform: translateX(-150%); 
@@ -743,9 +743,6 @@ CONFIG INPUT  */
     letter-spacing: 0.3px;
     resize: none;
 }
-
-
-
 .aside-three input {
     margin: 0 auto;
     border: 1px solid black;
@@ -782,7 +779,6 @@ CONFIG INPUT  */
         display: none;
     }
 }
-
 /* 
 RESPOSIVE NORMAL FOOTER */
 /* 
@@ -827,7 +823,6 @@ bloco-img config */
 }
 /* 
 bloco-form config */
-
 @media screen and (max-width:790px) {
     .bloco-form {
         width: 320px;
@@ -866,11 +861,7 @@ bloco-form config */
         width: 32em
     }
 }
-
-
 /* START TECHNOLOGY */
-
-
 .section-tec-one {
     width: calc(100%);
     background-color: var(--blue);
@@ -878,10 +869,8 @@ bloco-form config */
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/back-tec.png);
-    justify-items: center;
-    
+    justify-items: center;  
 }
-
 /* START ARTICLE ONE */
 .article-tec-one {
     margin: 0 auto;
@@ -889,14 +878,12 @@ bloco-form config */
     display: flex;
     flex-direction: row;
 }
-
 .build {
     width: calc(100% - 50%);
     margin: 15em 0 2em 2em;
     padding: 2em;
     line-height: 1.2;
 }
-
 .article-tec-one p {
     margin-top: 1.3em;
     text-decoration: none;
