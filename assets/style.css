@@ -120,11 +120,16 @@ body {
     line-height: 11px;
 }
 
+
+
 /* RESPOSIVE MENU  */
 
 @media screen and (max-width: 850px){
     .nav {
         height: 4em;
+    }
+    .on-off {
+        display: none;
     }
     .menu-resposive {
         display: block;
@@ -142,6 +147,8 @@ body {
         height: calc(100% - 10%);
         background-color: #eaeaea;
         transform: translateX(-150%); 
+        -webkit-transform: translateX(-150%);
+        -o-transform: translateX(-150%);
         transition:  transform 0.7s ease-in;
         align-items: center;
     }
@@ -558,7 +565,8 @@ RESPOSIVE */
     display: flex;
     background-color: #eaeaea;
     flex-wrap: wrap;
-  
+    justify-content: space-between;
+
     
 }
 
@@ -567,13 +575,12 @@ RESPOSIVE */
     margin: 1em auto;
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
     
 }
 .bloco-img {
     width: calc(100% - 70%);
-    margin: 2em 0 0 1em;
+    margin: 2em 0 0 6em;
 
 }
 
@@ -900,11 +907,11 @@ bloco-form config */
     width: 1240px;
     display: flex;
     margin: 0 auto;
-    
 }
 .article-tec-left {
     width: calc(100% - 50%);
     border-bottom: -5em;
+    z-index: -20;
 }
 
 .article-tec-two h1 {
@@ -914,7 +921,6 @@ bloco-form config */
     color: #464444;
     font-weight: bold ;       
     margin: 0 2em 0.8em 0.6em;
-
 }
 
 .article-tec-two p {
@@ -1006,9 +1012,6 @@ bloco-form config */
 .p-it {
     margin-right: 1em;
 }
-
-
-
 @keyframes moveLogo {
     0% {
         opacity: 0.2;
@@ -1016,13 +1019,15 @@ bloco-form config */
     }
     50% {
         opacity: 0.5;
-        transform: translateX(40%);
+        transform: translate(40%);
+        -webkit-transform: translate(40%);
+        -o-transform: translate(40%);
+        z-index: 1;
     }
     100% {
         opacity: 1;
     }
-}
-
+} 
 .article-tec-box-two img:hover {    
     animation-name: moveLogo;
     animation-duration: 4s;
@@ -1042,11 +1047,29 @@ bloco-form config */
         margin-top: -5em;
     }
     
-
 }
 
 
-
 /* END ARTICLE TWO  */
+
+/* START ARTICLE FOUR  */
+
+.section-tec-four {
+    width: calc(100%);
+    border: 1px solid black;
+    background-image: url(../img/back-tec.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.article-tec-four {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+}
+.article-tec-four > img {
+    margin-top: -10em;
+    width: calc(100% - 1%);
+}
 /* END TECHNOLOGY */
 
