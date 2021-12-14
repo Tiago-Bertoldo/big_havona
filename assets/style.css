@@ -1047,6 +1047,69 @@ bloco-form config */
     margin-top: -10em;
     width: calc(100% - 30%) ; 
 }
-
+/* RESPÒNSIVE */
 @media screen and (max-width:760px) {
+    .article-tec-one {
+        width: 320px ;
+    }
+    .article-tec-one > p {
+        font-size: 13pt;
+    } 
+    .build > img {
+        width: 20px;
+        height: 15px;
+    }
+    .article-tec-two {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .article-tec-right {
+        margin-top: -3em;
+        width: 320px;
+    }
+    .article-tec-left {
+        width: 320px;
+
+    }
+    .article-tec-left img , .article-tec-right img  {
+        width: 40px;
+        height: 37px;
+    }
+    .article-tec-left h2 , .article-tec-right h2{
+        font-size: 17pt;
+    }
+    .article-tec-left p , .article-tec-right p {
+        font-size: 10pt;
+    }
+    .article-tec-box-one { 
+        margin: 0 auto;
+        width: 320px;
+        margin-bottom: 8em;
+    }
+    .article-tec-box-two {
+        display: none;
+    }
+    .article-tec-box-one p {
+        font-size: 10pt;
+    }
+    .how-it {
+        font-size: 17pt;
+    }
+    .article-tec-box-one h2 {
+        font-size: 17pt;
+        color: black;
+    }
+
+    .article-tec-four {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .article-tec-four img {
+        margin: -5em 0 3em 0;
+        margin-top: -5em;
+        width: 320px;
+    }
+
+
 }
