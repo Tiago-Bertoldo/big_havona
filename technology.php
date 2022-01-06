@@ -24,10 +24,10 @@
                 <img src="img/logo.png" alt="">
         <ul>
             <li>
-                <a class="deco" href="index.html">Home</a>
+                <a class="deco" href="index.php">Home</a>
             </li>
             <li>
-                <a href="#">Technology</a>
+                <a href="technology.php">Technology</a>
             </li>
             <li>
                 <a href="#">About</a>
